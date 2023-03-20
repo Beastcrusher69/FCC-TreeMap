@@ -20,5 +20,28 @@ body{
 #title{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
+#description{
+    margin-bottom: 20px;
+
+}
+
+#canvas{
+    background-color:whitesmoke;
+}
+
+#tooltip{
+    visibility: hidden;
+    width:auto;
+    height:auto;
+    background-color: grey;
+    position:absolute;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:8px;
+    color:white;
+}
